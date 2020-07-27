@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../almuerzi/assets/normalize.css" type="text/css">
+    <link rel="stylesheet" href="../almuerzi/assets/main.css" type="text/css">
+    <!-- <script src="main.js"></script> -->
+    <title>Almuerzi Web</title>
+</head>
+<body>
+    <div id="bienvenido" class="section-bienvenido">
+        <h1>Bienvenidos</h1>
+        <p>Api para solicitar ordenes, con conexión a Vercel y MongoDB</p>
+    </div>
+
+    <div id="meals" class="section-meals">
+        <ul id="list-meals">
+            <p>Cargando...</p>
+        </ul>
+        <!-- <form id="form-orders" class="form-orders" action="" method="get"> -->
+        <form id="form-orders" class="form-orders" action="">
+            <input id="id-meals-input" type="hidden" value="">
+            <input id="id-submit" type="submit" disabled value="Enviar Ordenes">
+        </form>
+    </div>
+    <div id="orders" class="section-orders">
+        <ul id="list-orders">
+            <p>Cargando...</p>
+        </ul>
+    </div>
+
+</body>
+<script src="../almuerzi/assets/main.js"></script>
+</html>

@@ -1,0 +1,22 @@
+INTRO- NODE
+> npm init -y *le dice si a todo y crea el package.json
+> npm i -S express *instala el pq express pero dentod de las dependencias '-S'
+> npm i -g now *instala el pq de manera global
+> npm i -S mongoose *instala el db de manera local en dependencias
+> now secrets add mongodb-uri "link mongodb" *ruta de coneccion del cluster
+> now --prod *manda la app ya para ser consumida
+> now *hace el deploy
+>npm install http-server -g este paso instalará "http-server" globalmente, así que puedes usarlos desde la línea de comandos.
+>http-server [path] para utilizarlo es muy sencillo, simplemente colocas esto en tu terminal, en donde path es la ruta en donde tu archivo html existe
+_____________________________________________________________________________
+-----------------------------------------------------------------------------
+
+El comando de >now dev  no funciona ya 'solo' se puede usar el comando: now
+y esa hace el deploy inicial y digo inicial porque hay otro comando q es: now --prod
+q es el entonrno de producción ahora ,pero no son los mismos deje dos capturas en el archivo
+para denotar las diferencias.
+La imagen llamada captura#1 tiene solo el comando: now por eso se ve que no tiene el mismo 
+tiempo q son 3 min, en comparación donde esta Production q tiene 14 min.
+Si solo se usa: now el primer link q es el de arriba queda desactualizado, para q 
+ambos sean igual se debe usar: now --prod.
+El uso de esos dos comandos puede ser usarse como en el tutorial. 

@@ -1,0 +1,50 @@
+body{
+    /* background-color: #eeeeee; */
+    background-color: #156f96;
+    display: flex;
+}
+
+body div{
+    flex-grow: 1;
+    background-color: #ffffff;
+    margin: 5px;
+    /* margin-top: 0px; */
+}
+
+.section-bienvenido{
+    /* margin-left: 0px; */
+    padding: 15px;
+}
+
+.section-orders{
+    /* margin-right: 0px; */
+}
+
+.section-orders ul{
+    list-style-type: none;
+}
+
+.section-meals ul{
+    list-style-type: none;
+}
+
+.form-orders #id-submit{
+    background-color: #156f96;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: solid 0px;
+    border-radius: 25px;
+    margin: 25px 0px 20px 35px;
+}
+
+.form-orders #id-submit:disabled{
+    background-color: #cccccc;
+}
+
+.section-meals #list-meals li{
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #cccccc;
+}
